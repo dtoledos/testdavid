@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Peace Time</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_screen">ScreenActivity</string>
+
+    <string name="label_pager0"></string>
+    <string name="label_pager1">Helpful tips to make your life more peaceful</string>
+    <string name="label_pager2">Never feel lost again with our articles\nthat will improve you peace of mind</string>
+    <string name="label_pager3">We\’ll remind you to meditate\nso you can keep doing it</string>
+    <string name="label_customize_experience">Let\’s customize your experience\nto improve your results</string>
+
+    <string name="label_date_of_birth">Date of Birth</string>
+    <string name="label_time">Preferred Meditation Time</string>
+    <string name="label_timezone">Time Zone</string>
+    <string name="label_skip">Skip</string>
+    <string name="label_save">Save</string>
+
+    <string name="label_article_day">Article of Day</string>
+    <string name="label_just_looking">Just Looking: Overrated?</string>
+    <string name="label_article">Feature Article</string>
+    <string name="label_topics">Topics</string>
+    <string name="label_time_to_read">Time To Read</string>
+
+    <string name="label_lose_focus">Lose Focus</string>
+    <string name="label_peaceful">Peaceful\nThoughts\nHow to</string>
+
+    <string name="label_peace">Peace</string>
+    <string name="label_balance">Balance</string>
+
+    <string name="label_hour_error">Please, Enter Preferred Meditation Time</string>
+    <string name="label_date_error">Please, Enter Date of Birth</string>
+    <string name="title_activity_main_scren">MainScren</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="label_5min">5 min</string>
+    <string name="label_10min">10 min</string>
+
+</resources>

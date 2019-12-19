@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_main_area"
+    android:layout_marginTop="0dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:visibility="visible"
+    >
+
+        <FrameLayout android:visibility="visible"
+            android:id="@+id/rl_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="0dip"
+            android:paddingLeft="0dip"
+            android:paddingBottom="0dip"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="10dip"
+            android:layout_marginStart="20dip"
+            android:layout_marginEnd="0dip"
+            >
+
+            <ImageView
+                android:layout_marginTop="60dp"
+                android:id="@+id/iv_main"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+             />
+
+
+            <RelativeLayout
+                android:id="@+id/rl_main_row"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="bottom"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="300dip"
+                    android:layout_marginEnd="10dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorWhite"
+                />
+            </RelativeLayout>
+        </FrameLayout >
+</RelativeLayout>
